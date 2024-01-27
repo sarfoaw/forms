@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f0ebf8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 90vw;
+    width: 640px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* First Con */
+
+.tabcon {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffff;
+    border-radius: 15px;
+}
+
+.bluebar {
+    background-color: #4285f4;
+    height: 10px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.tabcon h1 {
+    padding: 15px 20px 15px 20px;
+}
+
+.tabcon .intro {
+    padding: 0 20px 10px 20px;
+}
+
+
+.emailswitch {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 0.2px solid black;
+    border-bottom: 0.2px solid black;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    padding: 5px 20px 0;
+}
+
+.emailswitch p a {
+    text-decoration: none;
+    color: #4285f4;
+}
+
+.tabcon span {
+    color: red;
+    padding: 0px 20px 10px 20px;
+}
+
+/* SEcond Con */
+.secondbox {
+    background-color: white;
+    height: 25vh;
+    border-radius: 8px;
+    margin-top: 25px;
+    padding-left: 24px;
+    padding-top: 24px;
+}
+
+.secondbox input {
+    border-style: none;
+    border-bottom-style: solid;
+    padding-top: 30px;
+}
+
+.thridbox {
+    background-color: white;
+    height: 25vh;
+    border-radius: 8px;
+    margin-top: 25px;
+    padding-left: 24px;
+    padding-top: 24px;
+}
+
+.thridbox input {
+    border-style: none;
+    border-bottom-style: solid;
+    padding-top: 30px;
+}
+
+.fourthbox {
+    background-color: white;
+    height: 25vh;
+    border-radius: 8px;
+    margin-top: 25px;
+    padding-left: 24px;
+    padding-top: 24px;
+}
+
+.fourthbox input {
+    border-style: none;
+    border-bottom-style: solid;
+    padding-top: 30px;
+}
+
+.fifthbox {
+    background-color: white;
+    height: 25vh;
+    border-radius: 8px;
+    margin-top: 25px;
+    padding-left: 24px;
+    padding-top: 24px;
+}
+
+.fifthbox input {
+    border-style: none;
+    border-bottom-style: solid;
+    padding-top: 30px;
+}
+
+.sixthbox {
+    background-color: white;
+    height: 25vh;
+    border-radius: 8px;
+    margin-top: 25px;
+    padding-left: 24px;
+    padding-top: 24px;
+}
+
+.seventhbox {
+    background-color: white;
+    height: 24vh;
+    border-radius: 8px;
+    margin-top: 25px;
+    padding-left: 24px;
+    padding-top: 24px;
+}
+
+.eighthbox {
+    background-color: white;
+    height: 24vh;
+    border-radius: 8px;
+    margin-top: 20px;
+    padding-left: 24px;
+    padding-top: 24px;
+}
+
+.eghthbox input {
+    border-style: none;
+    border-bottom-style: solid;
+    padding-top: 20px;
+}
+
+.ninethbox {
+    background-color: white;
+    height: 25vh;
+    border-radius: 8px;
+    margin-top: 25px;
+    padding-left: 24px;
+    padding-top: 24px;
+}
+
+.ninethbox input {
+    border-style: none;
+    border-bottom-style: solid;
+    padding-top: 20px;
+}
+
+.tenthbox {
+    background-color: white;
+    height: 25vh;
+    border-radius: 8px;
+    margin-top: 25px;
+    padding-left: 24px;
+    padding-top: 24px;
+}
+
+.tenthbox input {
+    border-style: none;
+    border-bottom-style: solid;
+    padding-top: 20px;
+}
+
+.eleventhbox {
+    background-color: white;
+    height: 25vh;
+    border-radius: 8px;
+    margin-top: 25px;
+    padding-left: 24px;
+    padding-top: 24px;
+}
+
+.eleventhbox input {
+    border-style: none;
+    border-bottom-style: solid;
+    padding-top: 20px;
+}
+
+.last-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.submitbtn {
+    background-color: #1a73e8;
+    width: 100px;
+    height: 34px;
+    align-items: center;
+    border-radius: 8px;
+    color: white;
+    border-style: none;
+    font-size: 17px;
+}
+
+.greenline {
+    width: 180px;
+    height: 10px;
+    border-radius: 8px;
+    background-color: rgb(17, 152, 17);
+    border-style: none;
+    margin-top: 20px;
+}
+
+.formc1 {
+    color: rgb(60, 122, 255);
+}
+
+.done {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    text-align: center;
+    display: inline-block;
+}
+
+.logo {
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.peps {
+    color: gray;
+    border-style: none;
+    padding-bottom: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 10px;
+}

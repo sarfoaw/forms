@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration form</title>
+    <link rel="stylesheet" href="form.css">
+    <style>
+        @import url();
+        body{
+            background-color: blue;
+        }
+        h1{
+            font-size: 10px;
+        }
+        #firstNamelabel{
+            color: green;
+        }
+        
+           
+    </style>
+</head>
+
+<body>
+    <h1>Registration form</h1>
+    <form>
+        <div id="firstName">
+            <label>first name</label>
+            <br>
+            <input type="text" name="first name" placeholder="please type your name"required/>
+        </div>
+
+        <div>
+            <label>last name</label>
+            <br>
+            <input type="text" name="last name" placeholder="please type your name" required/>
+        </div>
+
+        <div>
+            <label>Email</label>
+            <br>
+            <input type="text" name="email" placeholder="please type your email" required/>
+        </div>
+
+        <div>
+            <label>phone</label>
+            <br>
+            <input type="number" name="phone" placeholder="please type your number"required/>
+        </div>
+
+        <div>
+            <label>select gender</label>
+            <br>
+            <select>
+                <option value="male">male</option>
+                <option value="female">female</option>
+                <option value="others">others</option>
+            </select>
+        </div>
+    </form>
+
+</body>
+
+</html>

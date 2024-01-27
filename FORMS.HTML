@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Online Form</title>
+    <link rel="stylesheet" href="form.css">
+    <style>
+        body{
+            background-color: beige;
+        }
+        h1{
+            font-size: 60px;
+        }
+        
+        #firstName{
+
+            color:black;
+            background-color:brown;
+        }
+
+        #lastname{
+
+            color:black;
+            background-color:brown;
+        }
+
+        #email{
+
+            color:black;
+            background-color:brown ;
+        }
+
+        #phone{
+
+            color:black;
+            background-color: brown;
+        }
+
+        #gender{
+
+            color:black;
+            background-color:brown;
+        }
+        .input{
+            width: auto;
+            height: auto;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Online Form</h1>
+    <form>
+        <div id="firstName">
+        <label>firstName</label>
+        <br>
+        <input type="text" name="firstname" placeholder="please type your name" required/>
+        </div>
+
+        <div id="lastname">
+            <label>lastname</label>
+            <br>
+            <input type="text" name="lastname" placeholder="please type your name"required/>
+        </div>
+
+        <div id="email">
+            <label>email</label>
+            <br>
+            <input type="text" name="email" placeholder="please type your email"required/>
+        </div>
+
+        <div id="phone">
+            <label>phone</label>
+            <br>
+            <input type="number" name="phone number" placeholder="please type your number"required/>
+        </div>
+
+        <div id="gender">
+            <label>gender</label>
+            <br>
+            <input type="radio" name="gender" value="male" checked/>Male
+            <br>
+            <input type="radio" name="gender" value="female" checked/>female
+            <br>
+            <input type="radio" name="gender" value="others"checked/>others
+        </div>
+        
+
+    </form>
+    
+</body>
+</html>
